@@ -66,7 +66,7 @@ public class GameController : MonoBehaviour
 
         if(enemies.Count == 0)
         {
-            Debug.Log("You Win");
+            Debug.Log("Stage Clear!");
             isGameEnded = true;
         }
     }
